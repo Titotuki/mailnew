@@ -13,7 +13,7 @@ cron.schedule("0 */1 * * *", async () => {
     from: "onboarding@resend.dev",
     to: "swagata.chakraborty@delostylestudio.com",
     subject: "Hourly Email",
-    html: "<h1>Hello from Cron Job</h1>",
+    html: "<h1>Hello sWAGATA</h1>",
   });
 });
 
